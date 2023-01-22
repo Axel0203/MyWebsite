@@ -1,2 +1,2 @@
 # My first website
-## Making my online portfolio
+Making my online portfolio
