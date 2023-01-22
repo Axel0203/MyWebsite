@@ -1,0 +1,90 @@
+#esempio{
+    width: 300px;   /*content*/
+    padding: 50px; /*outside of content*/
+    border: 15px solid green; /*outside of padding*/
+    margin: 20px; /*outside of border*/
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    background-color: #b7e3e4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.navbar{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.navbar a:link,.navbar a:visited{
+    background-color: #f03f35;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar a:hover,.navbar a:active{
+    background-color: red;
+}
+
+#container{
+    border: 2px solid rgba(18, 18, 18, 0.136);
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.main{
+    padding: 50px;
+    display: flex;
+}
+
+#main__text{
+    color: #f03f35;
+    text-align: left;
+    margin: auto;
+    flex: 1;
+}
+
+#main__photo{
+    flex: 1;
+}
+
+#main__photo img{
+    max-width: 100%;
+}
+
+.contact{
+    padding: 50px;
+    -webkit-text-fill-color: #f03f35;
+    text-align: left;
+    border-top: 2px solid rgba(18, 18, 18, 0.136);
+}
+
+.contact a{
+    text-decoration: none;
+    color:#f03f35 ;
+}
+
+.contact ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact ul li{
+    margin: 3px;
+}
+
+.tabs{
+    display: flex;
+}
+.mail{
+    flex: 1;
+}
+.social{
+    flex: 1;
+}
