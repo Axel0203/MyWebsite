@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar{
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .navbar a:link,.navbar a:visited{
     background-color: #f03f35;
@@ -33,14 +34,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #container{
     border: 2px solid rgba(18, 18, 18, 0.136);
-    margin-right: 200px;
-    margin-left: 200px;
+    max-width: 75%;
+    margin: auto;
 }
 
-.main{
-    padding: 50px;
-    display: flex;
-}
+
 
 #main__text{
     color: #f03f35;
@@ -53,6 +51,23 @@ h1, h2, h3, h4, h5, h6 {
     flex: 1;
 }
 
+@media (max-width: 700px ){
+    .main{
+        padding: 50px;
+    }
+}
+
+@media (min-width: 700px ){
+    .main{
+        padding: 50px;
+        display: flex;
+    }
+
+    .tabs{
+        display: flex;
+    }
+
+}
 #main__photo img{
     max-width: 100%;
 }
@@ -79,9 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 3px;
 }
 
-.tabs{
-    display: flex;
-}
+
 .mail{
     flex: 1;
 }
