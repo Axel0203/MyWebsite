@@ -34,11 +34,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #container{
     border: 2px solid rgba(18, 18, 18, 0.136);
-    max-width: 75%;
+    max-width: 80%;
     margin: auto;
 }
-
-
 
 #main__text{
     color: #f03f35;
@@ -69,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 #main__photo img{
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .contact{
