@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     background-color: #b7e3e4;
 }
 
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #container{
-    width: 80%;
+    width: 66%;
     padding: 50px;
     border: 2px solid rgba(18, 18, 18, 0.136);
     min-height: 500px;
@@ -55,7 +55,22 @@ h1, h2, h3, h4, h5, h6 {
     .main{
         display: flex;
     }
+
+    .about .line{
+        display: flex;
+    }
+
+    .about #text p{
+        margin-left: 5%;
+    }
 }
+
+@media (max-width: 700px){
+    .about #text p{
+        text-align: justify;
+    }
+}
+
 .main #photo img{
     max-width: 100%;
 }
@@ -83,5 +98,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about {
-
+    margin: auto;
 }
+
+
+
+.about #text{
+    flex: 1;
+    text-align: left;
+}
+
+.about #text h2{
+    color: #f03f35;
+    margin-left: 5%;
+}
+
+.about #media{
+    width: 100%;
+    flex: 1;
+}
+
+.about #media img{
+    max-width: 100%;
+}
+
