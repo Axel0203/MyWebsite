@@ -60,9 +60,7 @@ h1, h2, h3, h4, h5, h6 {
         display: flex;
     }
 
-    .about #text p{
-        margin-left: 5%;
-    }
+
 }
 
 @media (max-width: 700px){
@@ -110,7 +108,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .about #text h2{
     color: #f03f35;
-    margin-left: 5%;
 }
 
 .about #media{
@@ -119,6 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about #media img{
-    max-width: 100%;
+    max-width: 80%;
+    margin: auto;
 }
 
