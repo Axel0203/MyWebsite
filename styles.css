@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Work Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     background-color: #b7e3e4;
 }
 
@@ -33,50 +33,53 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #container{
+    width: 66%;
+    padding: 50px;
     border: 2px solid rgba(18, 18, 18, 0.136);
-    max-width: 80%;
+    min-height: 500px;
     margin: auto;
 }
 
-#main__text{
+.main #text{
     color: #f03f35;
     text-align: left;
     margin: auto;
     flex: 1;
 }
 
-#main__photo{
+.main #photo{
     flex: 1;
-}
-
-@media (max-width: 700px ){
-    .main{
-        padding: 50px;
-    }
 }
 
 @media (min-width: 700px ){
     .main{
-        padding: 50px;
         display: flex;
     }
 
-    .tabs{
+    .about .line{
         display: flex;
     }
+
 
 }
-#main__photo img{
+
+@media (max-width: 700px){
+    .about #text p{
+        text-align: justify;
+    }
+}
+
+.main #photo img{
     max-width: 100%;
 }
 
 .contact{
-    padding: 50px;
     -webkit-text-fill-color: #f03f35;
     text-align: left;
-    border-top: 2px solid rgba(18, 18, 18, 0.136);
 }
-
+.contact .tabs div{
+    margin-top: 25px;
+}
 .contact a{
     text-decoration: none;
     color:#f03f35 ;
@@ -92,10 +95,28 @@ h1, h2, h3, h4, h5, h6 {
     margin: 3px;
 }
 
+.about {
+    margin: auto;
+}
 
-.mail{
+
+
+.about #text{
+    flex: 1;
+    text-align: left;
+}
+
+.about #text h2{
+    color: #f03f35;
+}
+
+.about #media{
+    width: 100%;
     flex: 1;
 }
-.social{
-    flex: 1;
+
+.about #media img{
+    max-width: 80%;
+    margin: auto;
 }
+
