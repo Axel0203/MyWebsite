@@ -95,28 +95,31 @@ h1, h2, h3, h4, h5, h6 {
     margin: 3px;
 }
 
-.about {
-    margin: auto;
-}
-
-
-
-.about #text{
-    flex: 1;
+.projects{
+    -webkit-text-fill-color: #f03f35;
     text-align: left;
 }
-
-.about #text h2{
-    color: #f03f35;
+.projects .tabs div{
+    margin-top: 25px;
+}
+.projects a{
+    text-decoration: none;
+    color:#f03f35 ;
 }
 
-.about #media{
-    width: 100%;
-    flex: 1;
+.projects ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.about #media img{
-    max-width: 80%;
-    margin: auto;
+.projects ul li{
+    margin: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
-
+ 
+#container a:hover {
+    color: #ff0d00;
+    font-size: 1.1rem;
+}
